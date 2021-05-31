@@ -1,16 +1,13 @@
 package main
 
 import (
-    "time"
     "fmt"
+    "crypto/md5"
 )
 
 func main() {
-    a := makeTimestamp()
+    s := "Simon"
+    digest := md5.Sum([]byte(s))
 
-    fmt.Printf("%d \n", a)
-}
-
-func makeTimestamp() int64 {
-    return time.Now().UnixNano() / int64(time.Millisecond)
+    fmt.Printf("%x\n", digest)
 }
