@@ -1,1 +1,12 @@
-[{},{}]
+[
+ {
+  "Name": "Sean",
+  "Digest": "40d18d5a7ae85f9597a40f1306041fd1",
+  "Balance": 50.23
+ },
+ {
+  "Name": "Donnie",
+  "Digest": "6f171d413bee711762beff4276595068",
+  "Balance": 14572.291
+ }
+]
