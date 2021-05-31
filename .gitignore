@@ -15,4 +15,4 @@
 # vendor/
 
 # Mac resources:
-.DS_Store
+*.DS_Store
