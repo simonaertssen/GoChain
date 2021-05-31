@@ -1,8 +1,8 @@
 {
-  "genesis_time": "2019-03-18T00:00:00.000000000Z",
+  "genesis_time": "2021-06-01T00:00:00.000000000Z",
   "chain_id": "the-GoChain-ledger",
   "balances": {
-      "Simon": 1000000
+      "SA": 1000000
   }
 }
 
